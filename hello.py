@@ -14,13 +14,10 @@ print(choice)
 
 
 def check_win(player, computer):
-    return [player, computer]
+    print(f"You chose {player}")
+    if (player == computer):
+        return "It's a tie!"
 
 
-a = 3
-b = 5
+check_win("paper", "paper")
 
-if a < b:
-    print("yes")
-else:
-    print("no")
