@@ -12,7 +12,15 @@ def get_choice():
 choice = get_choice()
 print(choice)
 
-food = ["pizza", "burger", "eggs"]
-dinner = random.choice(food)
-print(dinner)
 
+def check_win(player, computer):
+    return [player, computer]
+
+
+a = 3
+b = 5
+
+if a < b:
+    print("yes")
+else:
+    print("no")
