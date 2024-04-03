@@ -1,3 +1,6 @@
+import random
+
+
 def get_choice():
     player_choice = input("Enter a choice (rock, paper, sicors): ")
     computer_choice = "paper"
@@ -8,3 +11,8 @@ def get_choice():
 
 choice = get_choice()
 print(choice)
+
+food = ["pizza", "burger", "eggs"]
+dinner = random.choice(food)
+print(dinner)
+
