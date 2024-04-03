@@ -19,5 +19,5 @@ def check_win(player, computer):
         return "It's a tie!"
 
 
-check_win("paper", "paper")
-
+ch = check_win("paper", "paper")
+print(ch)
