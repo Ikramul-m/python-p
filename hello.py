@@ -7,3 +7,11 @@ def get_choice():
 
 choice = get_choice()
 print(choice)
+
+
+def greeting():
+    return "Hi"
+
+
+response = greeting()
+print(response)
