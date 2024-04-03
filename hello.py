@@ -30,3 +30,8 @@ name = "Ikramul"
 print(type(name))
 
 print(isinstance(name, int))
+
+number = "20"
+
+age = int(number)
+print(isinstance(age, int))
