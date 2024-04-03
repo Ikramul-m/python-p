@@ -21,3 +21,6 @@ check_win("rock", "paper")
 k = check_win("rock", "paper")
 
 print(k)
+
+d = {"ikram": "is obsessed", "age": "24"}
+print(d["age"])
