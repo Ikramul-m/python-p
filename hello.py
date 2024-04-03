@@ -39,3 +39,10 @@ print(isinstance(age, int))
 x = 8
 x *= 8
 print(x)
+
+print(0 or 1)
+print(False or "hey")
+print("hi" or "hey")
+
+print(["kl"] or False)
+print([] or False)
