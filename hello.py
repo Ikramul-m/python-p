@@ -28,3 +28,5 @@ print(d["age"])
 name = "Ikramul"
 
 print(type(name))
+
+print(isinstance(name, int))
