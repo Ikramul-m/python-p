@@ -1,5 +1,5 @@
 def get_choice():
-    player_choice = input("Enter a choice (rock, paper, sicors): ")
+    player_choice = "EEE"
     computer_choice = "paper"
     choices = {"player": player_choice, "computer": computer_choice}
 
@@ -24,3 +24,7 @@ print(k)
 
 d = {"ikram": "is obsessed", "age": "24"}
 print(d["age"])
+
+name = "Ikramul"
+
+print(type(name))
