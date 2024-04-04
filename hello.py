@@ -97,3 +97,9 @@ print("LeOpArD".title())
 print("leopard".isupper())
 print("leopard".islower())
 print("leopard".istitle())
+
+
+name = "Bapu"
+print("apu " in name)
+print("apu" in name)
+print("apun" in name)
