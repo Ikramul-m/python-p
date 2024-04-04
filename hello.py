@@ -174,3 +174,11 @@ items = ["Roger", 1, "Syd", True, "Quincy", 7]
 
 items.insert(2, "Test")
 print(items)
+
+items = ["Roger", 1, "Syd", True, "Quincy", 7]
+
+items.insert(2, "Test")
+print(items)
+
+items[1:1] = ["Teast1", "Test2"]
+print(items)
