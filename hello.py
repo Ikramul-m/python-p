@@ -161,3 +161,7 @@ print(dogs)
 
 dogs.extend(["Judah",67,5])
 print(dogs)
+
+
+dogs.remove("Judah")
+print(dogs)
