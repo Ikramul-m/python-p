@@ -136,3 +136,11 @@ print(len(State))
 
 age = input("Enter your age: ")
 print("I am "+age+" years old.")
+
+
+condition = True
+
+if condition == True:
+    print("The condition is true.")
+else:
+    print("Not true.")
