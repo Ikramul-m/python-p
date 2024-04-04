@@ -182,3 +182,8 @@ print(items)
 
 items[1:1] = ["Teast1", "Test2"]
 print(items)
+
+items = ["Roger", "bob", "Beau", "Quincy"]
+
+items.sort(key=str.lower)
+print(items)
