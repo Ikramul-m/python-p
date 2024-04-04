@@ -187,3 +187,11 @@ items = ["Roger", "bob", "Beau", "Quincy"]
 
 items.sort(key=str.lower)
 print(items)
+
+
+names = ("Roger", "Syd")
+
+names[-1]
+n = names.index("Roger")
+
+print(n)
