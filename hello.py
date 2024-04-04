@@ -1,3 +1,6 @@
+from enum import Enum
+
+
 def get_choice():
     player_choice = "EEE"
     computer_choice = "paper"
@@ -123,3 +126,12 @@ print(name[1:4])
 print(round(3.4))
 
 
+class State(Enum):
+    INACTIVE = 0
+    ACTIVE = 1
+
+
+print(State.ACTIVE.value)
+print(State.ACTIVE)
+print(State.INACTIVE.value)
+print(State.INACTIVE)
