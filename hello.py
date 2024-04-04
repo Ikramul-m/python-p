@@ -159,7 +159,7 @@ print(dogs[:3])
 dogs.append("Judah")
 print(dogs)
 
-dogs.extend(["Judah",67,5])
+dogs.extend(["Judah", 67, 5])
 print(dogs)
 
 
@@ -168,3 +168,9 @@ print(dogs)
 
 dogs.pop()
 print(dogs)
+
+
+items = ["Roger", 1, "Syd", True, "Quincy", 7]
+
+items.insert(2, "Test")
+print(items)
