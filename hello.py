@@ -126,10 +126,13 @@ print(name[1:4])
 print(round(3.4))
 
 
-
 class State(Enum):
-  ACTIVE = 1
-  INACTIVE = 0
+    ACTIVE = 1
+    INACTIVE = 0
+
 
 print(list(State))
 print(len(State))
+
+age = input("Enter your age: ")
+print("I am "+age+" years old.")
