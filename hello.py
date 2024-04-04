@@ -158,3 +158,6 @@ print(dogs[:3])
 
 dogs.append("Judah")
 print(dogs)
+
+dogs.extend(["Judah",67,5])
+print(dogs)
