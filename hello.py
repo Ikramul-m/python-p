@@ -149,3 +149,7 @@ else:
 
 print("beau" in dogs)
 print("Roger" in dogs)
+
+dogs[2] = "Beau"
+
+print(dogs)
