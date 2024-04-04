@@ -46,3 +46,14 @@ print("hi" or "hey")
 
 print(["kl"] or False)
 print([] or False)
+
+
+def is_adult(age):
+    if age > 18:
+        return True
+    else:
+        False
+
+
+v = is_adult(20)
+print(v)
