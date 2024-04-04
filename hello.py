@@ -89,3 +89,11 @@ me
 print("leopard".upper())
 print("LEOPARD".lower())
 print("LeOpArD".title())
+
+print("leopard".upper())
+print("LEOPARD".lower())
+print("LeOpArD".title())
+
+print("leopard".isupper())
+print("leopard".islower())
+print("leopard".istitle())
