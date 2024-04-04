@@ -84,3 +84,8 @@ it's
 me
 
 """)
+
+
+print("leopard".upper())
+print("LEOPARD".lower())
+print("LeOpArD".title())
