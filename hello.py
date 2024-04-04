@@ -119,3 +119,7 @@ print(name[-4])
 
 name = "Jack is cool"
 print(name[1:4])
+
+print(round(3.4))
+
+
