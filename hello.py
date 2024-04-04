@@ -165,3 +165,6 @@ print(dogs)
 
 dogs.remove("Judah")
 print(dogs)
+
+dogs.pop()
+print(dogs)
