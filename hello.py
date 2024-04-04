@@ -65,3 +65,10 @@ def is_adult2(age):
 
 r = is_adult2(10)
 print(r)
+
+"Beau"
+'Beau'
+
+name = "Beau"
+name += " is my name"
+print(name)
