@@ -57,3 +57,11 @@ def is_adult(age):
 
 v = is_adult(20)
 print(v)
+
+
+def is_adult2(age):
+    return True if age > 18 else False
+
+
+r = is_adult2(10)
+print(r)
