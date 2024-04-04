@@ -144,3 +144,8 @@ if condition == True:
     print("The condition is true.")
 else:
     print("Not true.")
+
+    dogs = ["Roger", 1, "Syd", True]
+
+print("beau" in dogs)
+print("Roger" in dogs)
