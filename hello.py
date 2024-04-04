@@ -153,3 +153,4 @@ print("Roger" in dogs)
 dogs[2] = "Beau"
 
 print(dogs)
+print(dogs[2:])
