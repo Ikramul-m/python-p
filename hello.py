@@ -116,3 +116,6 @@ print(name[-2])
 print(name[-3])
 print(name[-3])
 print(name[-4])
+
+name = "Jack is cool"
+print(name[1:4])
