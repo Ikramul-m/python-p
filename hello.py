@@ -103,3 +103,10 @@ name = "Bapu"
 print("apu " in name)
 print("apu" in name)
 print("apun" in name)
+
+
+name = "Jack"
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
