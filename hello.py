@@ -126,12 +126,10 @@ print(name[1:4])
 print(round(3.4))
 
 
+
 class State(Enum):
-    INACTIVE = 0
-    ACTIVE = 1
+  ACTIVE = 1
+  INACTIVE = 0
 
-
-print(State.ACTIVE.value)
-print(State.ACTIVE)
-print(State.INACTIVE.value)
-print(State.INACTIVE)
+print(list(State))
+print(len(State))
