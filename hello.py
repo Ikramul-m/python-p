@@ -207,7 +207,7 @@ print(list(dog.items()))
 print(len(dog))
 
 
-#sets
+# sets
 
 set1 = {"Roger", "Syd"}
 set2 = {"Roger"}
@@ -215,5 +215,11 @@ set2 = {"Roger"}
 intersect = set1 & set2
 print(intersect)
 
+# Function
 
 
+def Hello(name, age):
+    print("Hello " + name + "You are " + str(age) + " old.")
+
+
+Hello("Ikram", 24)
