@@ -195,3 +195,21 @@ names[-1]
 n = names.index("Roger")
 
 print(n)
+
+dog = {"name": "Roger", "age": 8, "designation": "Engineer"}
+
+print(dog.get("name"))
+print(dog.get("age"))
+
+print(dog.keys())
+print(list(dog.values()))
+print(list(dog.items()))
+print(len(dog))
+
+
+
+
+
+
+
+
