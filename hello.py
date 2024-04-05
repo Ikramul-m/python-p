@@ -207,9 +207,10 @@ print(list(dog.items()))
 print(len(dog))
 
 
+#sets
 
+set1 = {"Roger", "Syd"}
+set2 = {"Roger"}
 
-
-
-
-
+intersect = set1 & set2
+print(intersect)
