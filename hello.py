@@ -223,3 +223,11 @@ def Hello(name, age):
 
 
 Hello("Ikram", 24)
+
+
+def hello(name):
+    print('Hello ' + name + "!")
+    return name, "Beau", 8
+
+
+print(hello("Syd"))
